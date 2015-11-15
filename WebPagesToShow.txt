@@ -1,0 +1,2 @@
+﻿http://www.google.co.uk 10
+http://www.bbc.co.uk/news 5

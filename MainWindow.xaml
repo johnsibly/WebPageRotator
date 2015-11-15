@@ -1,0 +1,15 @@
+﻿<Window x:Class="WebPageRotator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Cycling web pages" 
+        Height="480" 
+        Width="640" Icon="/WebPageRotator;component/mariokart.png" WindowState="Maximized" WindowStyle="None">
+    <Grid>
+        <WebBrowser HorizontalAlignment="Stretch" 
+                    VerticalAlignment="Stretch" 
+                    Margin="0,0,0,0" 
+                    Name="_webBrowser"
+                    Navigated="_webBrowser_Navigated" 
+                    />
+    </Grid>
+</Window>
